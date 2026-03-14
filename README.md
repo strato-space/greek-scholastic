@@ -4,10 +4,10 @@ Public repository for the `greek-scholastic` Codex skill.
 
 ## Contents
 
-- `greek-scholastic/SKILL.md` — the skill definition
-- `greek-scholastic/agents/openai.yaml` — UI metadata for skill installers and clients
-- `.claude/commands/greek-scholastic.md` — ready-to-copy Claude Code slash command template
-- `.cursor/rules/greek-scholastic.mdc` — ready-to-copy Cursor rule template
+- [`greek-scholastic/SKILL.md`](./greek-scholastic/SKILL.md) — the skill definition
+- [`greek-scholastic/agents/openai.yaml`](./greek-scholastic/agents/openai.yaml) — UI metadata for skill installers and clients
+- [`.claude/commands/greek-scholastic.md`](./.claude/commands/greek-scholastic.md) — ready-to-copy Claude Code slash command template
+- [`.cursor/rules/greek-scholastic.mdc`](./.cursor/rules/greek-scholastic.mdc) — ready-to-copy Cursor rule template
 
 ## Install
 
