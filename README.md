@@ -25,15 +25,6 @@ Direct equivalent GitHub URL:
 https://github.com/strato-space/greek-scholastic/tree/main/greek-scholastic
 ```
 
-### Codex (script-level equivalent)
-
-If you need the underlying installer command explicitly, it resolves to:
-
-```bash
-python /root/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/strato-space/greek-scholastic/tree/main/greek-scholastic
-```
-
 After installing, restart Codex to pick up the new skill.
 
 ## Claude Code
