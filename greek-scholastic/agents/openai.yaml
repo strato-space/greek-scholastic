@@ -1,0 +1,4 @@
+interface:
+  display_name: "Greek Scholastic"
+  short_description: "Critique arguments through ontology-first reasoning"
+  default_prompt: "Use $greek-scholastic to critique this text through ontology-first reasoning."
