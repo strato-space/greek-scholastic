@@ -9,12 +9,29 @@ Public repository for the `greek-scholastic` Codex skill.
 
 ## Install
 
-Example installation from GitHub:
+### Codex
+
+Recommended install style is URL-first through the built-in `$skill-installer`, using the GitHub skill path directly:
+
+```text
+Use $skill-installer to install https://github.com/strato-space/greek-scholastic/tree/main/greek-scholastic
+```
+
+This keeps the instruction at the product level instead of exposing an implementation-specific helper script path.
+
+Direct equivalent GitHub URL:
+
+```text
+https://github.com/strato-space/greek-scholastic/tree/main/greek-scholastic
+```
+
+### Codex (script-level equivalent)
+
+If you need the underlying installer command explicitly, it resolves to:
 
 ```bash
 python /root/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo strato-space/greek-scholastic \
-  --path greek-scholastic
+  --url https://github.com/strato-space/greek-scholastic/tree/main/greek-scholastic
 ```
 
 After installing, restart Codex to pick up the new skill.
@@ -38,6 +55,11 @@ Recommended setup:
 Official references:
 - Anthropic docs: custom slash commands in `.claude/commands/` / `~/.claude/commands/`
 - https://docs.anthropic.com/en/docs/claude-code/slash-commands
+
+Comparison note:
+
+- A widely used Claude Code command repository, `wshobson/commands`, documents installation at the GitHub-repo level (`git clone` into `~/.claude`) and also points to a higher-level marketplace path, rather than exposing low-level internal helper scripts.
+- This README now follows the same repo-level / URL-first installation style for Codex.
 
 ## Cursor
 
