@@ -6,6 +6,8 @@ Public repository for the `greek-scholastic` Codex skill.
 
 - `greek-scholastic/SKILL.md` — the skill definition
 - `greek-scholastic/agents/openai.yaml` — UI metadata for skill installers and clients
+- `.claude/commands/greek-scholastic.md` — ready-to-copy Claude Code slash command template
+- `.cursor/rules/greek-scholastic.mdc` — ready-to-copy Cursor rule template
 
 ## Install
 
@@ -33,11 +35,10 @@ Claude Code does not use the Codex skill format directly. The closest official e
 
 Recommended setup:
 
-1. Create a project command or a personal command:
+1. Copy [`.claude/commands/greek-scholastic.md`](./.claude/commands/greek-scholastic.md) into:
    - project scope: `.claude/commands/greek-scholastic.md`
    - user scope: `~/.claude/commands/greek-scholastic.md`
-2. Copy the body of [`greek-scholastic/SKILL.md`](./greek-scholastic/SKILL.md) into that file.
-3. Invoke it in Claude Code as:
+2. Invoke it in Claude Code as:
 
 ```text
 /greek-scholastic
@@ -62,15 +63,9 @@ Cursor also does not use the Codex skill format directly. The closest official e
 
 Recommended setup:
 
-1. Create a project-scoped Cursor rule or project `AGENTS.md`.
-2. Paste the body of [`greek-scholastic/SKILL.md`](./greek-scholastic/SKILL.md).
+1. Copy [`.cursor/rules/greek-scholastic.mdc`](./.cursor/rules/greek-scholastic.mdc) into your project’s `.cursor/rules/`.
+2. Or adapt the same text into a User Rule / `AGENTS.md` setup if you prefer.
 3. Use it as a reusable reasoning rule for critique, ontology checks, and modality analysis.
-
-Suggested project-scoped path:
-
-```text
-.cursor/rules/greek-scholastic.mdc
-```
 
 Official references:
 - Cursor Rules docs: project rules in `.cursor/rules`, user rules in settings, `AGENTS.md` as an alternative
