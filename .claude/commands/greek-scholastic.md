@@ -1,6 +1,6 @@
 ---
 description: Greek-scholastic ontology-first critique
-argument-hint: [text or problem]
+argument-hint: [text, spec, prompt, plan, or argument]
 ---
 
 Apply the Greek–scholastic critique method to: $ARGUMENTS
