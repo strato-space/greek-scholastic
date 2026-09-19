@@ -1,5 +1,5 @@
 ---
-name: greek-scholastic-v2
+name: greek-scholastic
 description: Critique text and structured artifacts—specs, prompts, reviews, requirements, plans, patterns, arguments, and conceptual frameworks—by checking ontology before logic. Use when the user asks for rigorous reasoning, category-mistake detection, hidden assumptions, modality separation, Greek/scholastic analysis, ontology-first critique, or minimal-repair analysis.
 ---
 
