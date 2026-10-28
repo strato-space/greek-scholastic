@@ -1,6 +1,6 @@
 # Greek Scholastic
 
-Public repository for the `greek-scholastic` Codex skill.
+Public repository for the `greek-scholastic` skill.
 
 ## Contents
 
