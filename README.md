@@ -70,3 +70,10 @@ Recommended setup:
 Official references:
 - Cursor Rules docs: project rules in `.cursor/rules`, user rules in settings, `AGENTS.md` as an alternative
 - https://docs.cursor.com/en/context/rules
+
+## Related prompt code
+
+Related prompt-based approaches and examples (in Russian):
+
+- [Telegram post #402](https://t.me/gaperton_tech/402)
+- [Telegram post #949](https://t.me/gaperton_tech/949)
