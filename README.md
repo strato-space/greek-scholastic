@@ -93,3 +93,7 @@ Related prompt code and discussions from the original prompt author, **gaperton 
 
 - [Telegram post #402](https://t.me/gaperton_tech/402)
 - [Telegram post #949](https://t.me/gaperton_tech/949)
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
