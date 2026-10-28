@@ -11,6 +11,22 @@ Public repository for the `greek-scholastic` skill.
 
 ## Install
 
+### Skills CLI (skills.sh)
+
+Install the `greek-scholastic` skill from this public GitHub repository using the [Skills CLI](https://skills.sh/docs/cli):
+
+```bash
+npx skills add strato-space/greek-scholastic --skill greek-scholastic
+```
+
+To verify skill discovery without installing it:
+
+```bash
+npx skills add strato-space/greek-scholastic --list
+```
+
+No separate submission is required for [skills.sh](https://skills.sh/): eligible public skills can appear in its directory automatically as people install them using the CLI. See the [official FAQ](https://skills.sh/docs/faq).
+
 ### Codex
 
 Recommended install style is URL-first through the built-in `$skill-installer`, using the GitHub skill path directly:
@@ -73,7 +89,7 @@ Official references:
 
 ## Related prompt code
 
-Related prompt-based approaches and examples (in Russian):
+Related prompt code and discussions from the original prompt author, **gaperton (Vlad Balin)**, on his Telegram channel (in Russian):
 
 - [Telegram post #402](https://t.me/gaperton_tech/402)
 - [Telegram post #949](https://t.me/gaperton_tech/949)
