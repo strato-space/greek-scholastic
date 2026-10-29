@@ -1,6 +1,10 @@
 # Greek Scholastic
 
-Public repository for the `greek-scholastic` skill.
+Greek Scholastic is a reasoning skill for critiquing text and structured artifacts—specs, prompts, reviews, requirements, plans, patterns, arguments, and conceptual frameworks—by **checking ontology before logic**.
+
+Use it for rigorous reasoning, detecting category mistakes, uncovering hidden assumptions, separating modalities, Greek/scholastic analysis, ontology-first critique, and minimal-repair analysis.
+
+See [`greek-scholastic/SKILL.md`](./greek-scholastic/SKILL.md) for the full analysis protocol.
 
 ## Contents
 
